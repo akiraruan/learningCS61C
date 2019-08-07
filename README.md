@@ -1,2 +1,2 @@
 # learningCS61C
-学习CS61C途中写的lab和project
+2019夏CS61C的lab和project
