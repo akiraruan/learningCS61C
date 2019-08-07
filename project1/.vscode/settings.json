@@ -1,0 +1,11 @@
+{
+    "editor.fontSize": 25,
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.associations": {
+        "flights.h": "c",
+        "typeinfo": "c",
+        "limits": "c",
+        "timehm.h": "c"
+    },
+    "editor.defaultFormatter": "vscode.configuration-editing"
+}
