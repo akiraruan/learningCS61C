@@ -14,25 +14,24 @@ typedef struct airport airport_t;
 typedef struct flight flight_t;
 
 struct flightSys {
-  // Place the members you think are necessary for the flightSys struct here.
-  airport_t **ap;
-  int *cnt;
+    // Place the members you think are necessary for the flightSys struct here.
+    airport_t **ap;
+    int *cnt;
 };
 
 struct airport {
-  // Place the members you think are necessary for the airport struct here.
-  char *name;
-  flight_t **flight;
-  int *cnt;
+    // Place the members you think are necessary for the airport struct here.
+    char *name;
+    flight_t **flight;
+    int *cnt;
 };
 
 struct flight {
-  // Place the members you think are necessary for the flight struct here.
-  airport_t *desAirPort;
-  timeHM_t *fromTime;
-  timeHM_t *toTime;
-  int *cost;
+    // Place the members you think are necessary for the flight struct here.
+    airport_t *desAirPort;
+    timeHM_t *fromTime;
+    timeHM_t *toTime;
+    int *cost;
 };
 
 #endif
-
