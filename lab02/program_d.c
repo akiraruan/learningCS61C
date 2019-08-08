@@ -3,6 +3,6 @@ int main(void) {
     for (int i = 0;; i++) {
         a[i] = i;
     }
-
+    // segmentation fault
     return 0;
 }
